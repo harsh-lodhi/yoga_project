@@ -6,7 +6,7 @@ const cors = require("cors");
 const app = express();
 const User = require('./models/User');
 
-const DB = 'mongodb+srv://harshlodhi0809:ENRa80fj2Vb63Cyn@cluster0.7udkifx.mongodb.net/?retryWrites=true&w=majority'; 
+const DB = 'mongodb+srv://harshlodhi2002:08092002@cluster0.7udkifx.mongodb.net/?retryWrites=true&w=majority'; 
 
 mongoose.connect(DB).then(()=>{
     console.log("connection successful");
